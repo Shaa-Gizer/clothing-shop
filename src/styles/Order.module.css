@@ -1,0 +1,37 @@
+.item {
+    width: 100%;
+    padding: 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.item img {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.item h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    color: #797979;
+    font-weight: 400;
+}
+
+.deleteBtn {
+    color: #ca5252;
+    float: right;
+    position: relative;
+    top: -35px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    left: -20px;
+}
+
+.deleteBtn:hover {
+    color: #9b1414;
+    transform: scale(1.5);
+}
