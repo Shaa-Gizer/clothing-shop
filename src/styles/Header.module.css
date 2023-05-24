@@ -111,6 +111,13 @@
     padding-bottom: 0px;
 }
 
+.ordersTitle {
+    justify-self: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
 .closeCart {
     float: right;
     width: 25px;
@@ -126,9 +133,10 @@
     transform: scale(1.2) translateY(-5px);
 }
 
-.empty h2 {
+.empty h4 {
     font-size: 20px;
     margin-bottom: 15px;
+    font-weight: 300;
 }
 
 .total {

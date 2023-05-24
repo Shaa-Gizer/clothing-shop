@@ -8,6 +8,7 @@ const showOrders = (props) => {
     props.orders.forEach(el => sum += Number.parseFloat(el.price))
     return (
         <div>
+            <span className={h.ordersTitle}>Your orders</span>
             {props.orders.map(el => (
                     <Order key={el.id}
                            item={el}
@@ -22,7 +23,7 @@ const showOrders = (props) => {
 const showNothing = () => {
     return (
         <div className={h.empty}>
-            <h2>Cart is empty</h2>
+            <h4>Cart is empty</h4>
         </div>
     )
 }
