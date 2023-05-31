@@ -17,6 +17,7 @@ class App extends React.Component {
           title: 'Item 1',
           img: '1.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '1',
           price: '50'
         },
@@ -25,6 +26,7 @@ class App extends React.Component {
           title: 'Item 2',
           img: '2.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '1',
           price: '50'
         },
@@ -33,6 +35,7 @@ class App extends React.Component {
           title: 'Item 3',
           img: '3.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '2',
           price: '50'
         },
@@ -41,6 +44,7 @@ class App extends React.Component {
           title: 'Item 4',
           img: '4.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '2',
           price: '50'
         },
@@ -49,6 +53,7 @@ class App extends React.Component {
           title: 'Item 5',
           img: '5.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '3',
           price: '50'
         },
@@ -57,6 +62,7 @@ class App extends React.Component {
           title: 'Item 6',
           img: '6.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '3',
           price: '50'
         }
@@ -66,6 +72,7 @@ class App extends React.Component {
           title: 'Item 7',
           img: '7.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '3',
           price: '50'
         }
@@ -75,6 +82,7 @@ class App extends React.Component {
           title: 'Item 8',
           img: '8.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '2',
           price: '50'
         },
@@ -83,6 +91,7 @@ class App extends React.Component {
           title: 'Item 9',
           img: '9.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '1',
           price: '50'
         }
@@ -92,6 +101,7 @@ class App extends React.Component {
           title: 'Item 10',
           img: '10.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '2',
           price: '50'
         }
@@ -101,6 +111,7 @@ class App extends React.Component {
           title: 'Item 11',
           img: '11.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '1',
           price: '50'
         },
@@ -109,6 +120,7 @@ class App extends React.Component {
           title: 'Item 12',
           img: '12.png',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugit!',
+          maxDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda, consequatur culpa debitis deleniti dicta earum eveniet facilis, inventore libero mollitia officiis provident quasi quisquam rem repudiandae suscipit. Eaque, ipsam molestias! Adipisci alias consequatur, deserunt dignissimos ea eligendi expedita laborum maiores molestias odit officiis porro quae reprehenderit sequi, vel, voluptatem.',
           category: '1',
           price: '50'
         }

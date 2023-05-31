@@ -15,7 +15,7 @@ const showOrders = (props) => {
                            deleteOrder={props.deleteOrder}
                     />
             ))}
-            <p className={h.total}>Total: {new Intl.NumberFormat().format(sum)}</p>
+            <p className={h.total}>Total: {new Intl.NumberFormat().format(sum)}$</p>
         </div>
     )
 }
@@ -54,9 +54,7 @@ const Header = (props) => {
                     </div>
 
                     {cartOpen && (
-                        <div className={h.shopCart}
-                             onBlur={showNothing}
-                        >
+                        <div className={h.shopCart}>
                             <span className={h.closeCart}
                                   onClick={onClickCloseCart}
                             >x</span>
